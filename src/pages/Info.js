@@ -7,7 +7,7 @@ function Info() {
 
   useEffect(() => {
     // API에서 이미지 URL을 불러오기
-    fetch('http://ec2-3-38-255-79.ap-northeast-2.compute.amazonaws.com/company')
+    fetch('/api/company')
       .then(response => {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);

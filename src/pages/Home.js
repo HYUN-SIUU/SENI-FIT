@@ -6,7 +6,7 @@ function Home() {
   const [images, setImages] = useState([]);
 
   useEffect(() => {
-    fetch('http://ec2-3-38-255-79.ap-northeast-2.compute.amazonaws.com/home')
+    fetch('/api/home')
       .then(response => {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);

@@ -7,7 +7,7 @@ function Experience() {
 
   useEffect(() => {
     // API에서 이미지 URL을 불러오기 (POST 방식)
-    fetch('http://ec2-3-38-255-79.ap-northeast-2.compute.amazonaws.com/contact', {
+    fetch('/api/contact', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

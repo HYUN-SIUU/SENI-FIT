@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/api/*"
+  to = "http://ec2-3-38-255-79.ap-northeast-2.compute.amazonaws.com/:splat"
+  status = 200
+  force = true
