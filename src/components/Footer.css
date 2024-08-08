@@ -1,0 +1,10 @@
+footer {
+    background-color: aquamarine;
+    padding: 20px;
+    margin-top: 10px;
+}
+  
+footer > p {
+    font-weight: bold;
+    text-align: center;
+}
