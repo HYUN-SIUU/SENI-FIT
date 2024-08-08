@@ -6,7 +6,7 @@ function Teacher() {
   const [images, setImages] = useState([]);
 
   useEffect(() => {
-    fetch('http://ec2-3-38-247-211.ap-northeast-2.compute.amazonaws.com:8080/apply')
+    fetch('http://ec2-3-38-255-79.ap-northeast-2.compute.amazonaws.com/apply')
       .then(response => {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
